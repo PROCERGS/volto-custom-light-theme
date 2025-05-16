@@ -8,8 +8,7 @@ const ApplyUrlStyles = () => {
         // Itera sobre os nós de texto dentro do elemento
         Array.from(element.childNodes).forEach((node) => {
           if (node.nodeType === Node.TEXT_NODE) {
-            const regex =
-              /\b((http|https):\/\/|www\.)[^\s/$.?#].[^\s]*/gi; // Detecta URLs válidos
+            const regex = /\b((http|https):\/\/|www\.)[^\s/$.?#].[^\s]*/gi; // Detecta URLs válidos
             const matches = node.textContent.match(regex);
 
             if (matches) {
@@ -18,8 +17,7 @@ const ApplyUrlStyles = () => {
               tempContainer.innerHTML = node.textContent.replace(
                 regex,
                 (url) =>
-                  `<a href="${url.startsWith('http') ? url : `http://${url}`}" target="_blank" rel="noopener noreferrer" class="link-padrao">${url}</a>`, 
-                    //Adiciona a classe "link-padrao" para estilização dinâmica em cada bloco específico
+                  `<a href="${url.startsWith('http') ? url : `http://${url}`}" target="_blank" rel="noopener noreferrer" class="link-padrao">${url}</a>`,
               );
 
               // Substitui o nó de texto pelo conteúdo processado

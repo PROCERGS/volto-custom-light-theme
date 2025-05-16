@@ -29,8 +29,8 @@
   display: flex;
   width: 100vw;
   flex-direction: column;
+  border-top: 2px solid #fecd3a;
   background: #ededed;
-  border-top: 2px solid #FECD3A;
   transition: padding-left 0.3s ease;
 }
 

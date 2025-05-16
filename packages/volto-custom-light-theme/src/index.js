@@ -1,7 +1,6 @@
-import ApplyUrlStyles from '../../../../volto-custom-light-theme/packages/volto-custom-light-theme/src/customizations/global/ApplyUrlStyles';
+import ApplyUrlStyles from './customizations/global/ApplyUrlStyles';
 
 const applyConfig = (config) => {
-  
   config.settings.appExtras = [
     ...(config.settings.appExtras || []),
     {
