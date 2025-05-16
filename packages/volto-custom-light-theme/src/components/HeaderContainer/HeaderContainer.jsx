@@ -71,10 +71,6 @@ const HeaderContainer = ({
               color: '#fff',
               backgroundColor: '#607F35',
               borderRadius: '50px',
-              position: 'fixed',
-              bottom: '45px',
-              right: '10%',
-              zIndex: '9999',
               boxShadow: '0 2px 5px rgba(0, 0, 0, 0.4)',
               border: '3px solid transparent',
             }}

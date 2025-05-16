@@ -7,6 +7,18 @@
   }
 }
 
+/* Posição fixa do botão scroll */
+.btn-scroll {
+  position: fixed;
+  z-index: 9999;
+  right: 10%;
+  bottom: 45px;
+}
+
+body.has-sidebar .btn-scroll {
+  right: 385px;
+}
+
 @keyframes appear {
   0% {
     opacity: 0;
