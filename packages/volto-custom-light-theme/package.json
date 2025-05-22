@@ -28,9 +28,9 @@
   },
   "dependencies": {
     "@kitconcept/volto-light-theme": "5.0.2",
-    "@fortawesome/fontawesome-free": "*",
-    "@fortawesome/react-fontawesome": "*",
-    "@fortawesome/free-solid-svg-icons": "*"
+    "@fortawesome/fontawesome-free": "6.7.2",
+    "@fortawesome/react-fontawesome": "0.2.2",
+    "@fortawesome/free-solid-svg-icons": "6.7.2"
   },
   "peerDependencies": {
     "react": "18.2.0",
