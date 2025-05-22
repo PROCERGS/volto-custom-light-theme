@@ -34,6 +34,7 @@ body.has-sidebar .btn-scroll {
 
 .header {
   max-width: var(--layout-container-width) !important;
+  padding: 0 var(--padding-default);
 }
 
 .header-wrapper .header .logo-nav-wrapper {

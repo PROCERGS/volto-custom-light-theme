@@ -36,3 +36,7 @@ html {
 #page-document .blocks-group-wrapper > .block h2.headline {
   margin-left: unset !important;
 }
+
+#page-document > * > * {
+  padding: 0 var(--padding-default);
+}

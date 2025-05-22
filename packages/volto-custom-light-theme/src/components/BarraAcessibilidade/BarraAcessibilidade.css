@@ -11,6 +11,7 @@
   max-width: var(--layout-container-width);
   flex-direction: row;
   justify-content: space-between;
+  padding: 0 var(--padding-default);
   padding-top: 10px;
   margin-right: auto;
   margin-left: auto;

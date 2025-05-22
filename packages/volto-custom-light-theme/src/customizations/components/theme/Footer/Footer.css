@@ -4,7 +4,7 @@
 
 .footer-container {
   max-width: var(--layout-container-width);
-  padding: 0 15px;
+  padding: 0 var(--padding-default);
   margin: 0 auto;
 }
 
@@ -44,10 +44,17 @@
 .footer-logo {
   height: 80px;
   align-content: center;
+  padding: 0 var(--padding-default);
   background-color: var(--green-vivid-80);
 }
 
 .footer-logo > p {
   color: white;
   font-size: 13px;
+}
+
+.rodape__mapa-site__item > a:hover,
+.rodape__mapa-site__item > ul > li > a:hover {
+  color: var(--green-matriz-link) !important;
+  text-decoration: none !important;
 }

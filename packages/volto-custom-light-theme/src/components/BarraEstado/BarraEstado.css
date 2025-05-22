@@ -61,6 +61,7 @@
   position: relative;
   max-width: var(--layout-container-width);
   height: 100%;
+  padding: 0 var(--padding-default);
   margin-right: auto;
   margin-left: auto;
 }
