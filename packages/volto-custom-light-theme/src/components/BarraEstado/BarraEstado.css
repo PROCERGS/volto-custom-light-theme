@@ -116,6 +116,11 @@
   transition: box-shadow 0.25s linear;
 }
 
+.barra-estado__menu > li > a:hover > svg > path,
+.barra-estado__menu > li > a:focus > svg > path {
+  fill: var(--green-matriz-link-activated);
+}
+
 .barra-estado__menu > li > a:focus,
 .barra-estado__menu > li > a:hover {
   box-shadow: inset 5px 0 var(--green-matriz-link-activated);
