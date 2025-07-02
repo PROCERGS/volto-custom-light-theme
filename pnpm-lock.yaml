@@ -1394,13 +1394,13 @@ importers:
   packages/volto-custom-light-theme:
     dependencies:
       '@fortawesome/fontawesome-free':
-        specifier: '*'
+        specifier: 6.7.2
         version: 6.7.2
       '@fortawesome/free-solid-svg-icons':
-        specifier: '*'
+        specifier: 6.7.2
         version: 6.7.2
       '@fortawesome/react-fontawesome':
-        specifier: '*'
+        specifier: 0.2.2
         version: 0.2.2(@fortawesome/fontawesome-svg-core@6.7.2)(react@18.2.0)
       '@kitconcept/volto-light-theme':
         specifier: 5.0.2
