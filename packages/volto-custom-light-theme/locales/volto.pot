@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2025-03-06T20:09:56.538Z\n"
+"POT-Creation-Date: 2025-09-02T20:25:43.569Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -21,9 +21,4 @@ msgstr ""
 #. Default: "Search Site"
 #: components/SearchWidget/SearchWidget
 msgid "Search Site"
-msgstr ""
-
-#. Default: "Sitemap"
-#: components/SiteMapFooter/SiteMapFooter
-msgid "Sitemap"
 msgstr ""

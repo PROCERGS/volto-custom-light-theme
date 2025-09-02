@@ -11,14 +11,11 @@ const applyConfig = (config) => {
   ];
 
   config.settings.appExtras = [
-
-
     ...(config.settings.appExtras || []),
-
-
-    { match: '', component: FaviconHelmet },
-
-
+    {
+      match: '',
+      component: FaviconHelmet,
+    },
   ];
 
   return config;

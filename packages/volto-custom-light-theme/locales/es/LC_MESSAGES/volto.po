@@ -27,8 +27,3 @@ msgstr ""
 #: components/SearchWidget/SearchWidget
 msgid "Search Site"
 msgstr ""
-
-#. Default: "Sitemap"
-#: components/SiteMapFooter/SiteMapFooter
-msgid "Sitemap"
-msgstr ""
