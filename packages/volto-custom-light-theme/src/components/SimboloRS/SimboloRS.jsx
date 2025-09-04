@@ -29,7 +29,7 @@ const SeloGoverno = () => {
 
   return (
     <div className="simboloRS">
-      <UniversalLink href="https://www.estado.rs.gov.br" target="_self">
+      <UniversalLink href="https://casacivil.rs.gov.br/inicial" target="_self">
         <img
           src={isHighContrast ? SimboloRSHighContrast : SimboloRS}
           alt="RS.GOV - Novas façanhas"
